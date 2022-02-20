@@ -1,0 +1,247 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Technical Documentation Page</title>
+</head>
+
+<body>
+  <nav id="navbar">
+    <ul class="navbar-elements">
+      <header class="navbar-header">Video games design document</header>
+      <li><a class="nav-link" href="#Concept">Concept</a></li>
+      <li><a class="nav-link" href="#Version_History">Version History</a></li>
+      <li><a class="nav-link" href="#Game_Overview">Game Overview</a></li>
+      <li><a class="nav-link" href="#Game_Mechanics">Game Mechanics</a></li>
+      <li><a class="nav-link" href="#Game_States">Game States</a></li>
+      <li><a class="nav-link" href="#Interface">Interface</a></li>
+      <li><a class="nav-link" href="#Levels">Levels</a></li>
+      <li><a class="nav-link" href="#Game_Progress">Game Progress</a></li>
+      <li><a class="nav-link" href="#Characters">Characters</a></li>
+      <li><a class="nav-link" href="#Enemies">Enemies</a></li>
+      <li><a class="nav-link" href="#Skills">Skills</a></li>
+      <li><a class="nav-link" href="#Weapons">Weapons</a></li>
+      <li><a class="nav-link" href="#Items">Items</a></li>
+      <li><a class="nav-link" href="#Script">Script</a></li>
+      <li><a class="nav-link" href="#Achievements">Achievements</a></li>
+      <li><a class="nav-link" href="#Secret_Codes">Secret Codes</a></li>
+      <li><a class="nav-link" href="#Music_and_Sounds">Music and Sounds</a></li>
+      <li><a class="nav-link" href="#Concept_Images">Concept Images</a></li>
+      <li><a class="nav-link" href="#Team_Members">Team Members</a></li>
+      <li><a class="nav-link" href="#Production_Details">Production Details</a></li>
+      <li><a class="nav-link" href="#Reference">Reference</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+
+    <section id="Concept" class="main-section">
+      <header>Concept</header>
+      <ul>
+        <li><b>Title:</b> The title of the game should be a name that captures the attention of the player and the reader of the document. Broadly speaking, it should include the concept of the game.</li>
+        <li><b>Studio/Designers:</b> The name of the studio and/or the designer(s) of the document.</li>
+        <li><b>Genre:</b> The genre covers what type of game it will be : <code> Simulation, FPS, RPG, etc.</code></li>
+        <li><b>Platform:</b> What hardware is required to play :<code>(Personal Computer, Xbox, Play Station, etc.)</code></li>
+        <li><b>Version:</b> The version of the document. Must be a number and not a date. <code>(See the Version History field)</code>.</li>
+        <li><b>Gameplay and Content Synopsis:</b> In one or two paragraphs, describe the essence of playing the game. Include a little of what the game will contain : <code> Story, characters, objective, etc.</code></li>
+        <li><b>Category:</b> Compare with one or several existing games and emphasize the differences and main features of this game.</li>
+        <li><b>License:</b> Describe whether the game is based on a book or a movie. If it is original, you can omit this field or describe why it may become a franchise.</li>
+        <li><b>Mechanics:</b> Describe the gameplay and control of the game: what does the player do, what does he/she use to achieve his/her goals?</li>
+        <li><b>Technology:</b> List what hardware and software is required to produce the game. From programming language to sound editor.</li>
+        <li><b>Audience:</b> Who is the target audience for the game, who will play it? You can describe a demographic such as children or teenagers, however, it is easier to describe a type of gamer: <code> Whether casual, competitive or veteran.</code></li>
+      </ul>
+    </section>
+
+    <section id="Version_History" class="main-section">
+      <header>Version History</header>
+      <p>
+        The Design Document is an artifact that will always be subject to change, therefore, a control for the different versions of the document and the changes that have been made is essential. The version number varies according to whether it is a minimal change or a very radical one. The history is not included in a document that is submitted for review by a company or group of developers because it includes dates, to avoid them judging the idea of the game as an old concept.
+      </p>
+    </section>
+
+    <section id="Game_Overview" class="main-section">
+      <header>Game Overview</header>
+      <p>
+        It should state the vision and focus of the game that will guide the project through to the end of the process. The summary should mention the most interesting, the advantages and the originality of the game - why would people play this game? The structure of the paragraphs is similar to an essay, an introduction should cover all the important aspects while the subsequent paragraphs should detail what was mentioned in the introduction. At the end, the conclusion should leave the reader enthusiastic and excited to play the game.
+      </p>
+
+    </section>
+
+    <section id="Game_Mechanics" class="main-section">
+      <header>Game Mechanics</header>
+      <p>
+        This section essentially describes what the player can do and how he can do it. Describe the player's actions, preferably in sequence to how it will be in the game.
+      </p>
+      <ul>
+        <li><b>Camera:</b> Describe the type of camera to be used. That is to say, what perspective the player has to what he is seeing in the game: <code> if it is 3D or 2D, isometric view, first person view, etc.</code></li>
+        <li><b>Peripherals</b>: What peripherals will the player use to achieve the above objectives? Include all applicable ones: <code> keyboard, mouse, gamepad, microphone, etc.</code></li>
+        <li><b>Controls:</b> Describe the buttons and keys that invoke the actions mentioned in the Game Mechanics section.</li>
+        <li><b>Scoring:</b> Explain how the game keeps track of player achievements. Also include whether there is a leaderboard that compares scores between players, either locally or online.</li>
+        <li><b>Save/Load:</b> Describe how the player saves their progress of objectives achieved in the game and how they can continue pending objectives. Similarly, describe the storage devices to be used or if the game has a password system.</li>
+      </ul>
+    </section>
+
+    <section id="Game_States" class="main-section">
+      <header>Game States</header>
+      <p>
+        A game state refers to where the player is during the game, i.e., whether the player is in the Main Menu, is playing a Multiplayer Game, is in the Pause Menu, etc. Diagrams should visually represent the relationships between states, if from the Main Menu you can go to the Options Menu, how do you do it? What is executed? What interface does it show?
+      </p>
+    </section>
+
+    <section id="Interface" class="main-section">
+      <header>Interface</header>
+      <p>
+        The interfaces give the guideline to the interactivity that the player has with the game, in this section the appearance of the game should be described, that is to say, colors and theme. It is important to leave a visual impression on the player and obviously it must be related to the concept of the game.
+      </p>
+      <ul>
+        <li><b>Display Name:</b> The name of the screen, whether it is the Main Menu or the H.U.D. <code> (Heads-up Display).</code></li>
+        <li><b>Screen Description:</b> What is this interface for?</li>
+        <li><b>Game States:</b> List all the game states that invoke this screen as well as the states that can be invoked on this screen. Image An image that shows in concept how the screen would look like.</li>
+      </ul>
+    </section>
+
+    <section id="Levels" class="main-section">
+      <header>Levels</header>
+      <p>
+        Games are commonly divided into levels or sequential maps within which certain objectives must be met in order to progress through the game. There are games in which the levels only change in terms of difficulty and the objectives remain the same, and these changes should be described in this section.
+      </p>
+      <ul>
+        <li><b>Level Title:</b> The name of the level.</li>
+        <li><b>Encounter:</b> Describe whether it is the first level, a tutorial or a bonus, in other words, when does the player reach this level?.</li>
+        <li><b>Objectives:</b> What must the player do to finish the level? This field should also include whether the player has to solve certain puzzles or defeat a certain enemy to progress.</li>
+        <li><b>Enemies:</b> If the level has enemies that the player must face, they are listed in this field, otherwise this field can be omitted.</li>
+        <li><b>Items:</b> List the items that the player or enemies can use that appear in this level, this field can be omitted if no such items exist.</li>
+        <li><b>Characters:</b> The characters that appear in the level, likewise, this field can be omitted if there are no characters in the game.</li>
+        <li><b>Music and Sound effects:</b> Describe the music of this level as well as the ambient sound effects it contains.</li>
+        <li><b>BGM and SFX reference:</b> Write all the references that apply to the background music and sound effects described in the Music and Sound section.</li>
+      </ul>
+    </section>
+
+    <section id="Game_Progress" class="main-section">
+      <header>Game Progress</header>
+      <p>
+        List sequentially or by means of a flowchart the events or levels that the player must pass to progress in the game. There are games that have different game modes, in which case several lists and/or diagrams are required.
+      </p>
+    </section>
+
+    <section id="Characters" class="main-section">
+      <header>Characters</header>
+      <p>
+        The main and secondary characters that will appear in the game. This section can be omitted if the game has no characters.
+      </p>
+      <ul>
+        <li><b>Character Name:</b> The name of the character.</li>
+        <li><b>Description:</b> Describe in detail the character's physique, whether he/she is human or alien, his/her clothing, etc. Image, photograph or conceptual drawing of the character.</li>
+        <li><b>Concept:</b> Describe the conduct and behavior, as well as the motives of the character. Also mention whether he is the main enemy or the protagonist. The concept can also be related as a history of the character, detailing the relationships with other characters in the game.</li>
+        <li><b>Encounter:</b> When does this character appear in the game?</li>
+        <li><b>Skills:</b> List the character's skills.</li>
+        <li><b>Weapons:</b> The character's weapons.</li>
+        <li><b>Items:</b> The character's items.</li>
+        <li><b>Non Playable Character(NPC):</b> If the character is not controllable by the player, describe its purpose for the game and/or for the player.</li>
+      </ul>
+    </section>
+
+    <section id="Enemies" class="main-section">
+      <header>Enemies</header>
+      <p>
+        Enemies hinder the player's progress, they can be machines, other characters, monsters, etc.
+      </p>
+      <ol>
+        <li><b>Name:</b> The name of the enemy.</li>
+        <li><b>Description:</b> Describe in detail the enemy's physique as well as its behavior.</li>
+        <li><b>Encounter:</b> When does this enemy appear in the game?</li>
+        <li><b>Image:</b> Photograph or concept drawing of the enemy.</li>
+        <li><b>Abilities:</b> List the enemy's abilities.</li>
+        <li><b>Weapons:</b> Enlist the enemy's weapons.</li>
+        <li><b>Items:</b> Enlist the enemy's items.</li>
+      </ol>
+    </section>
+
+    <section id="Skills" class="main-section">
+      <header>Skills</header>
+      <p>
+        Characters and enemies come to have certain skills outside the common actions, in this section each of them are described.
+      </p>
+    </section>
+
+    <section id="Weapons" class="main-section">
+      <header>Weapons</header>
+      <p>
+        This section describes the weapons that will appear in the game.
+      </p>
+    </section>
+
+    <section id="Items" class="main-section">
+      <header>Items</header>
+      <p>
+        All the special items that help the player to accomplish the objectives and progress in the game are mentioned here.
+      </p>
+    </section>
+
+    <section id="Script" class="main-section">
+      <header>Script</header>
+      <p>
+        In this section are included all the dialogues of the game. These may be quite varied or non-existent depending on the nature of the game. The script should include headings, names, dialogue, action and transitions.
+      </p>
+    </section>
+
+    <section id="Achievements" class="main-section">
+      <header>Achievements</header>
+      <p>
+        Describe the various achievements or milestones that the player obtains while progressing through the game. These may award medals, secret characters or bonus points.
+      </p>
+    </section>
+
+    <section id="Secret_Codes" class="main-section">
+      <header>Secret Codes</header>
+      <p>
+        Describe the secret codes the player can enter, what they do and how they are entered.
+      </p>
+    </section>
+
+    <section id="Music_and_Sounds" class="main-section">
+      <header>Music and Sounds</header>
+      <p>
+        The music and/or sounds that will be used in the game, name, description along with a reference number. If it is background music, the reference should start with an 'M' followed by a number in sequence. If it is a sound effect, start with 'S'.
+      </p>
+    </section>
+
+    <section id="Concept_Images" class="main-section">
+      <header>Concept Images</header>
+      <p>
+        All images showing any possible level, character, object, etc., should be included in this section and should be numbered and captioned.
+      </p>
+    </section>
+
+    <section id="Team_Members" class="main-section">
+      <header>Team Members</header>
+      <p>
+        Information about the people who will be working on the project, including their name, role(s) and means by which they can be contacted.
+      </p>
+    </section>
+
+    <section id="Production_Details" class="main-section">
+      <header>Production Details</header>
+      <p>
+        Before entering the Production stage, some details of the project are defined in the document.
+      </p>
+      <ol>
+        <li><b>Start Date:</b> When does the Production stage of the project begin?</li>
+        <li><b>End Date:</b> When does the Production stage of the project end?</li>
+        <li><b>Budget:</b> A rough estimate of the game's budget.</li>
+      </ol>
+    </section>
+
+    <section id="Reference" class="main-section">
+      <header>Reference</header>
+      <p>All the documentation in this page is taken from <a href="https://eldocumentalistaudiovisual.com/2015/02/06/documentacion-en-videojuegos-documento-de-diseno-gdd/" target="_blank">this site</a>.</p>
+    </section>
+
+  </main>
+
+</body>
+
+</html>

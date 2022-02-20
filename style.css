@@ -1,0 +1,93 @@
+/*Responsive Desing*/
+@media only screen and (max-width: 800px) {
+    #navbar ul {
+      border: 1px solid;
+      height: 210px;
+      width: 100%;
+    }
+  
+    #navbar {
+      background-color: #ffffff;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      max-height: 275px;
+      border: none;
+      z-index: 1;
+      border-bottom: 2px solid;
+    }
+  
+    .main-section {
+      margin-left: -20em;
+      margin-top: 250px;
+    }
+  }
+  /*Responsive Design*/
+  
+  /*Elements*/
+  body {
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 2;
+  }
+  header {
+    font-size: 30px;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #d74d63;
+    border-radius: 10px;
+  }
+  header:hover {
+    color: #f5f5f5;
+    text-shadow: 0px 0px 10px #0b0b1d;
+    transition: color 0.5s ease, text-shadow 0.5s ease;
+  }
+  /*Elements*/
+  
+  /*Class*/
+  .navbar-elements {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    background-color: #ffffff;
+    height: 96vh;
+    overflow: auto;
+    color: #1a1a1a;
+    display: block;
+  }
+  .nav-link {
+    display: block;
+    color: #000000;
+    padding: 15px 16px;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+  }
+  .nav-link:hover {
+    color: #d74d63;
+    text-shadow: 0px 0px 15px #6e2632;
+  }
+  .navbar-header {
+    text-align: center;
+    color: #4d4e53;
+    padding: 3px;
+    margin: 3px;
+    transition: color 0.5s ease, text-shadow 0.5s ease;
+  }
+  /*Class*/
+  
+  /*ID*/
+  #main-doc {
+    margin: 0px;
+    margin-left: 320px;
+  }
+  #navbar {
+    position: fixed;
+  }
+  /*ID*/
+  
